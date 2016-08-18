@@ -141,14 +141,40 @@ li .aa {
   padding: 20px;
 }
 /*футер*/
-.boxfooter {
+.footr_box {
   width: 965px;
   height: 40px;
-  /*border: 1px solid black;*/
   margin: 440px 0px 0px 45px;
   background-color: #e1e1e1;
 }
+.footer_ul {
+  width: 965px;
+  height: 40px;
+}
+.footer_ul li {
+  display: inline-block;
+}
 .lifoot {
+  margin: 10px;
+  width: 100px;
+  height: 40px;
+}
+.footer_ul a {
+  padding-left: 25px;
+}
+.footer_ul a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+.footer_ul a:hover {
+  text-decoration: underline;
+}
+.lifoot1 {
+  margin-left: 280px;
+}
+
+
+/*.lifoot {
   display: inline-block;
   padding: 10px;
   color: white;
@@ -161,6 +187,9 @@ li .aa {
   color: white;
   padding-left: 20px;
   height: 20px;
+}
+.lifoot1 {
+  margin-right: 10px;
 }
 .afoot {
   text-decoration: none;
@@ -175,4 +204,4 @@ li .aa {
 .afootp {
   text-decoration: none;
   color: #2c2c2c;
-}
+}*/
